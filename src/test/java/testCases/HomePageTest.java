@@ -47,7 +47,6 @@ public class HomePageTest extends WebTestBase {
         homePage.setDiscountMail(prop.getProperty("discountMail"));
         softAssert.assertEquals(homePage.getDiscountMail(), "Thanks for signing up! Enter the code WELCOMECAMPOS10 at checkout for 10% off your first order.");
         softAssert.assertAll();
-        System.out.println("Hello Everyone");
     }
 
     @Test(description = "checking Privacy button")
