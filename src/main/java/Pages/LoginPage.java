@@ -24,7 +24,7 @@ public class LoginPage extends WebTestBase {
     @FindBy(xpath = "//a[text()='Click here']")
     WebElement registerElement;
 
-    public LoginPage(){   //to initialize to make the constructor
+    public LoginPage(){           //to initialize to make the constructor
         PageFactory.initElements(driver,this);
     }
 
