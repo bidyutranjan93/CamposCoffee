@@ -12,7 +12,8 @@ public class WebElementUtil extends WebTestBase {
         element.sendKeys(text);
     }
 
-    public static void clearOnElement(WebElement element) {       // create generic method for all clear element.clear();
+    public static void clearOnElement(WebElement element) {       // create generic method for all clear
+        element.clear();
     }
     public  static  void submitOnElement(WebElement element){
         element.submit();
